@@ -1,0 +1,73 @@
+body{/*very important */
+    margin: 0;
+    padding: 0;
+    background-image: url("laptop\ background\ image\ 8k\ wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    min-height: 100vh;/*very important line*/
+     display: flex;/*very important line withput these u cant use flex in main*/
+    flex-direction:column;/*very important line withput these u cant use flex in main*/
+}
+
+header{/*very important */
+    background-color: grey;
+    padding:0.5%;
+   text-align: center;/*very important line*/
+}
+main{
+    flex: 1;
+    display: flex;              /* center form horizontally */
+    justify-content: center;    /* horizontal center */ 
+    align-items: center;
+ 
+   
+}
+.f label{
+    color: blueviolet;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+
+     background: rgba(255, 255, 255, 0.9);  /* ✅ small background */
+    padding: 20px; /* ✅ space inside */
+    border-radius: 10px;/* ✅ rounded box */
+   
+    height: 150px;
+    
+}
+footer{
+    background-color: pink;
+    text-align: center;
+}
+.b{
+    border-radius: 100px;
+    max-width: 80px;
+    margin: auto;
+}
+button{
+    border-radius: 100px;
+    border: 10px;
+    background-color: aqua;
+}
+.button{
+    text-align: left;
+    
+}
+main a {
+    color: rgb(95, 5, 240);
+    padding: 0px 10px ;
+    text-decoration: none;
+}
+
+button:hover{
+   background-color: azure;
+}
+
+
+.ap{
+    background-color: ;
+}
+
